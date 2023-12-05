@@ -75,7 +75,8 @@ from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.utils import check_array
 from sklearn.preprocessing import LabelEncoder
 from scipy import sparse
-from sklearn.preprocessing import Imputer, StandardScaler
+from sklearn.preprocessing import StandardScaler
+from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline, FeatureUnion
 
 # Create a class to select numerical or categorical columns 
